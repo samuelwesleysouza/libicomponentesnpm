@@ -2,9 +2,10 @@
   "name": "libiprkbreact",
   "version": "1.0.0",
   "description": "lib-componente-parabank",
-  "main": "index.js",
+  "main": "dist/index.js",                    // Mudando para o arquivo de saída compilado
   "scripts": {
     "start": "react-native start",
+    "build": "tsc",                          // Adiciona o script de build para compilar o código
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
