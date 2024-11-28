@@ -1,0 +1,36 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Arquivos nativos (certificados, chaves e outros)
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro (relacionado ao bundler do React Native)
+.metro-health-check*
+
+# Arquivos de debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS (arquivos do sistema operacional)
+.DS_Store
+*.pem
+
+# Arquivos de ambiente local
+.env*.local
+
+# TypeScript (arquivos de build do TypeScript)
+*.tsbuildinfo
